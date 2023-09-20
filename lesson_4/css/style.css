@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+
+*{
+   color: aqua;
+}
+p {
+    color:lawngreen;
+}
+a {
+   color: rgb(237, 148, 148);
+}
+li {
+    color: rgb(90, 228, 194);
+}
+.wrapper{
+    color: rgb(34, 241, 234);
+}
+
+.content{
+    color: blueviolet;
+}
+#block{
+    color: rosybrown;
+}
+.header {
+    color: rgb(131, 120, 120);
+}
+.menu {
+    color: brown;
+}
+.contacts {
+    color: gold;
+}
+.phone-numner {
+    color: rgb(252, 31, 197);
+}
+.email {
+    color: rgb(235, 235, 156);
+}
+.title {
+    color: rgba(103, 56, 56, 0.301);
+}
+.subtitle {
+    color: rgb(31, 4, 56);
+}
+.first-block {
+    color: green;
+}
+.logo {
+    color: rgb(93, 1, 1);
+}
+
+.adress {
+    color: rgb(101, 74, 7);
+}
+div.adress{
+    color: rgb(125, 201, 123);
+}
+.wrapper__text.text{
+    color: rgb(228, 97, 16);
+}
+.title,
+.subtitle {
+    color: rgba(111, 4, 98, 0.301);
+}
+.menu a{
+    color: yellow;
+}
+.wrapper .content{
+    color: rgb(99, 70, 70);
+}
+.menu *{
+    color: red;
+}
+.content > p {
+    color: red;
+}
+.content ~ p {
+	 color: red; 
+}
+.content + p {
+	 color: rgb(5, 108, 5); 
+}
