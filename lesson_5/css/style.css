@@ -1,0 +1,127 @@
+
+/*------------------- Підключення шрифтів ------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cabin:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("fonts.css");
+/*------------------- Обнулення------------------------- */
+@import url("reset.css");
+/*----------------------BODY--------------------------------*/
+body{
+    font-size: 18px;
+    font-family: "Inter", serif;
+    color: #7D7D7D;
+}
+ a{
+    text-decoration:underline;
+    color: red;
+    font-family:"Mintaka", serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.title {
+color: #37393F;
+font-family: "Poppins", serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 1.27;
+text-transform: capitalize;
+
+}
+
+.sub-title {
+color: #6B77E5;
+font-family: Poppins, serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27; 
+
+}
+.project__title {
+color: #37393F;
+font-family: Poppins, serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.27; 
+
+}
+
+.third-part__title {
+    font-family:"Mintaka", serif;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #6B77E5;
+    text-shadow: 2px 2px #37393F;
+    letter-spacing: 5px;
+    
+    
+}
+.third-part__subtitle{
+    font-family: "Causten", sans-serif;
+    font-weight: 300;
+
+}
+.third-part__second-title{
+    font-family:"Causten", serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.third-part__third-title{
+    font-family:"Causten", serif;
+    font-weight: 500;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
+.third-part__text {
+    font-family: "Causten", sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    white-space: nowrap;
+
+}
+.third-part__content{
+    font-family: "Manrope", serif;
+    font-weight: 500;
+    line-height: 2;
+    text-indent: 20px;
+
+}
+.third-part__list {
+   font-family: "Manrope",serif;
+   font-weight: 600;
+   font-style: italic;
+   
+}
+.third-part__fourth-title{
+    font-family: "Manrope",serif;
+    font-weight: 700;
+    text-decoration: overline;
+    text-align: right;
+    
+
+}
+.third-part__paragraf{
+    font-family: "Manrope",serif;
+    text-decoration: line-through;
+
+}
+.random-text p {
+    color: green;
+}
+.random-text__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(3, 37, 3);
+    text-shadow: 3px 3px #37393F;
+    text-align: center;
+    text-transform: uppercase;
+}
