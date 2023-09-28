@@ -1,0 +1,246 @@
+/*----------------Fonts-------------------*/
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Poppins:600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway:500&display=swap);
+/*------------------------------------------*/
+@import url("reset.css");
+/*------------------BODY-----------------*/
+body{
+color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+line-height: 1.5;
+}
+
+[class*="__title"]{
+	color:  #37393F;
+}
+.wrapper{
+    
+    max-width: 722px; 
+	margin: 0 auto; 
+    padding: 50px 15px;}
+
+.wrapper__body {
+    
+}
+.first-block {
+    margin-bottom: 42px;
+}
+.image{
+    margin: 0 0 24px 0;
+    max-width: 100%;
+}
+.first-block__title {
+font-family: "Poppins", sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 3px;
+}
+.first-block__text {
+    
+}
+.second-block {
+    margin-bottom: 40px;
+}
+.second-block__title {
+color: #6B77E5;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 12px;
+}
+.second-block__text {
+    
+}
+.third-block {
+    margin-bottom: 100px;
+
+}
+.third-block__image{
+    display: inline-block;
+    margin-right: 29px;  
+    max-width: 331px;
+    max-width: 100%;
+    vertical-align: top;
+   
+}
+.third-block__title {
+font-family: "Poppins", sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 15px;
+}
+.third-block__subtitle {
+color: #40DDB6;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 24px;
+}
+.third-block__content{
+    display: inline-block;
+   max-width: 46%;
+}
+.third-block__list{
+    
+}
+.third-block__list li:not(:last-child){
+    margin: 0px 0px 35px 0px; 
+}
+.icon  {
+   width: 27px;
+   height: 27px;
+   margin: 0px 8px 0px 0px;
+}
+.jevellery {
+   background-color: #FFF9F4;
+   margin-bottom: 100px;
+
+ 
+   
+   
+}
+.jevellery__block {
+width: 48%;
+    display: inline-block; 
+}
+.jevellery__body{
+    max-width: 1175px; 
+    margin: 0 auto;
+}
+.jevellery__subtitle {
+    color:#D06B00;
+    font-family: "Inter", sans-serif;
+font-size: 28px;
+padding: 26px 0px 59px 6px;
+
+}
+.jevellery__title {
+    color: #0E333D;
+font-family: "DM Serif Text", sans-serif;
+font-size: 59px;
+text-transform: capitalize;
+line-height: 1.5;
+margin: -39px 75px 25px 0px;
+}
+.jevellery__text {
+   margin: 0px 38px 21px 0px;
+    color: #474747;
+font-family: "Inter", sans-serif;
+font-size: 20px;
+line-height: 1.8; 
+}
+.jevellery__image {
+    margin: 0px 22px 0px 0px;
+}
+.personal-block {
+    background-color: #FFF9F4;
+  
+    
+    
+}
+.personal-block__body{
+    max-width: 1600px; 
+	margin: 0 auto;
+}
+.personal-block__header{
+    text-align: center;
+}
+.personal-block__label {
+    color: #D06B00;
+font-family: "Inter", sans-serif;
+font-size: 15px;
+margin: 0px 0px 8px 0px;
+
+}
+.personal-block__title {
+color: #0E333D;
+font-family: "DM Serif Text", sans-serif;
+font-size: 48px;
+line-height: 1.27;
+margin: 0px 0px 19px 0px;
+}
+.personal-block__subtitle {
+    color: #8C8B8A;
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.27;
+margin: 0px 0px 93px 0px;
+}
+.personal-block__items{
+    font-family: "Inter", sans-serif;
+   
+  
+}
+.personal-block__column {
+    max-width: 555px;
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    background-color: #fff;
+    border-radius: 12px;
+   
+  
+   
+}
+.personal-block__text {
+    display: inline-block;
+    padding: 48px 48px 0px 48px;
+    margin-bottom: 33px;
+    color: #323232;
+
+font-size: 18px;
+line-height: 1.8;
+}
+.personal-block__block {
+ 
+}
+.personal-block__name {
+    color:  #323756;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 10px;
+
+}
+.personal-block__name-2 {
+    color:  #646464;
+font-size: 16px;
+font-weight: 400;
+}
+.personal-block__column-color {
+    max-width: 555px;
+    display: inline-block;
+    border-radius: 12px;
+border: 1px solid  #D8D8D8;
+background: #0E333D;
+}
+.personal-block-2__text{
+    color: #FFF;
+font-size: 18px;
+line-height: 1.8;
+padding: 48px 48px 0px 48px;
+margin-bottom: 33px;
+
+}
+.personal-block-2__name-2{
+    
+}
+.personal-block-2__name{
+    margin-bottom: 10px;  
+}
+.test{
+    font-size: 35px;
+text-align: center;
+background-color: #981f70;
+text-transform: uppercase;
+font-family: "Poppins", serif;
+font-weight: 600;
+color: #ffffff;
+}
+   
