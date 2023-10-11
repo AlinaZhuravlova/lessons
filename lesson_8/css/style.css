@@ -1,0 +1,438 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+/*---------------------------TEST--------------------------*/
+.block{
+    background-color: #97ccef;
+     background-image: url(../img/fon.jpg);
+   background-image: url(../img/autumn.jpg) ;
+    background-image: linear-gradient(90deg, #0a7d8d 0%, #3affc4 50%, #ae05f7 100%);
+    background-repeat: no-repeat;
+   background-repeat:repeat-y;
+   background-repeat: repeat-x;
+background-position: right center;
+background-attachment: scroll;
+background-size: cover;
+background-size: auto 800px;
+background: 
+url(../img/autumn.jpg) center / 200px no-repeat,
+url(../img/fon.jpg) right bottom / 300px no-repeat,
+linear-gradient(90deg, #d2b616 0%, #c88644 50%, #cbf705 100%);
+}
+.inline{
+    background: #cc1d1d;
+}
+.test{
+    margin-bottom: 100px;
+}
+/*-------------------------PRACTIKA--------------------------*/
+.care {
+    font-family: "Inter" , sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.care__container {
+    max-width: 705px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.care__rows {
+}
+.text-row {
+    margin-bottom: 48px;
+}
+.subtitle-top {
+    margin-bottom: 16px;
+}
+.subtitle{
+   
+   display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.subtitle,
+.title,
+.block-row__title{
+    color: #37393F;
+    text-transform: capitalize;
+}
+.square {
+background: #40DDB6;
+width: 12px;
+height: 12px;
+display: inline-block;
+vertical-align: middle;
+}
+.subtitle, 
+.block-row__title {
+    line-height: normal;
+}
+.title {
+margin-bottom: 10px;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.2;
+}
+.text p:not(:last-child){
+    margin-bottom: 16px;
+}
+.block-row {
+    margin-bottom: 48px;
+}
+.block-row__item {
+    border: 1px solid #E3E3E3;
+    padding: 28px 41px 28px 38px;
+}
+.block-row__item:not(:last-child){
+    margin-bottom: 31px;
+}
+.block-row__title {
+background: url(../img/consulting/Vector.svg) no-repeat;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 12px;
+padding-left: 46px;
+}
+.button{
+background: #6B77E5;
+color: #FFF;
+font-weight: 600;
+padding: 21px 35px 22px 35px;
+justify-content: center;
+align-items: center;
+display: inline-block;
+max-height: 65px;
+max-width: 200px;
+}
+/**************Consulting******************************/
+.consulting {
+    font-family: "Inter" , sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+.consulting__container {
+    max-width: 651px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+.consulting__top {
+    margin-bottom: 16px;
+}
+.consulting__square {
+width: 12px;
+height: 12px;
+background: #40DDB6;
+display: inline-block;
+vertical-align: middle;
+}
+.consulting__subtitle {
+color: #37393F;
+font-weight: 500;
+display: inline-block;
+vertical-align: middle;
+}
+.consulting__title {
+    color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+.consulting__text p:not(:last-child) {
+    margin-bottom: 15px;
+}
+.consulting__text{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.blocks {
+}
+.blocks__item {
+
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+margin-bottom: 43px;
+
+}
+.blocks__item li:not(:last-child){
+    margin-bottom: 23px;
+    
+}
+.blocks__item li{
+    background: url(../img/consulting/Vector.svg) no-repeat;
+    padding-left: 35px;
+    min-height: 33px;
+    
+}
+.blocks__column{
+    display: inline-block;
+    font-size: 0;
+}
+.blocks__column-experience {
+    display: inline-block;
+    padding: 32px;
+    padding-left: 90px;
+    border: 1px solid #e3e3e3;
+    margin: 0 21px 21px 0;
+    font-size: 0;
+    background: url(../img/consulting/list.svg) 32px 32px no-repeat;
+}
+.blocks__name {
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 3px;
+
+}
+.blocks__text {
+font-size: 16px;
+line-height: 1.4;
+}
+.blocks__column-awards{
+display: inline-block;  
+font-size: 0;
+padding: 32px;
+border: 1px solid #E3E3E3;
+background: url(../img/consulting/medal.svg) 32px 32px no-repeat;
+padding-left: 90px;
+}
+
+/*--------------------discover-----------------------*/
+.discover {
+color: #37393F;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+}
+.discover__container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.discover__top {
+    max-width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.discover__square {
+width: 12px;
+height: 12px;
+background: #40DDB6;
+display: inline-block;
+}
+.discover__subtitle {
+    margin-bottom: 14px;
+    display: inline-block;
+}
+.discover__title {
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 14px;
+
+}
+.discover__text {
+    color: #7D7D7D;
+line-height: 1.5; 
+max-width: 852px;
+text-align: center;
+font-weight: 400;
+}
+.discover__rows{
+    font-size: 0;
+}
+.discover__rows:not(:last-child) {
+    margin-bottom: 58px;
+}
+.discover__column {
+    display: inline-block;
+    max-width: 384px;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+}
+.image {
+    background: url(../img/consulting/Photo01.png) 0 0 no-repeat;
+}
+.image, 
+.image-2,
+.image-3,
+.image-4,
+.image-5,
+.image-6   {
+    display: inline-block;
+    height: 501px;
+    width: 100%;   
+    margin-bottom: 24px;  
+}
+.discover__column:not(:last-child){
+    margin-right: 34px;
+}
+.image-name {
+font-family:" Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.2;
+margin-bottom: 10px;
+}
+.image__text {
+    background: url(../img/consulting/date.svg) no-repeat;
+    color: #7D7D7D;
+font-size: 14px;
+line-height: 1.5;
+padding-left: 27px;
+}
+.image-2{
+    background: url(../img/consulting/Photo02.png) 0 0 no-repeat;
+}
+.image-3{
+    background: url(../img/consulting/Photo03.png) 0 0 no-repeat;
+}
+.image-4{
+    background: url(../img/consulting/Photo04.png) 0 0 no-repeat;
+}
+.image-5{
+    background: url(../img/consulting/Photo05.png) 0 0 no-repeat;
+}
+.image-6{
+    background: url(../img/consulting/Photo06.png) 0 0 no-repeat;
+}
+/*-----------------------EUFORIA-------------------------------------*/
+.euforia {
+color: #807D7E;
+font-family: "Causten" , sans-serif;
+font-size: 20px;
+}
+.euforia__container {
+    max-width: 1260px;
+    padding: 50px 10px;
+   margin: 0 auto;
+}
+.euforia__top {
+    margin-bottom: 30px;
+    
+}
+.euforia__dekor {
+    display: inline-block;
+    width: 6px;
+    height: 28px;
+background-color: #8A33FD;
+border-radius: 10px;
+margin-right: 15px;
+vertical-align: middle;
+
+}
+.euforia__title,
+.blocks__title,
+.btn {
+font-family: "Core Sans C", sans-serif;
+}
+.euforia__title{
+    display: inline-block;
+    color: #3C4242;
+font-family: "Core Sans C", sans-serif;
+font-size: 28px;
+line-height: 33.5px; 
+letter-spacing: 0.56px;
+font-weight: 600;
+vertical-align: middle;   
+}
+.euforia__blocks {
+    margin-bottom: 25px;
+}
+.euforia__blocks-2{
+    margin-bottom: 20px;
+}
+.blocks__title {
+    color: #807D7E;
+line-height: 33.5px;
+letter-spacing: 0.4px;
+margin-bottom: 25px;
+}
+.blocks__text p {
+line-height: 33.5px;
+letter-spacing: 0.4px;
+font-size: 20px;
+
+}
+.blocks__text p:not(:last-child){
+    margin-bottom: 20px;
+}
+ span{
+    font-family: "Causten", sans-serif;
+    font-weight: 700;
+}
+.btn{
+    display: inline-block;
+}
+/*------------------PICTURES---------------------------------*/
+.pictures {
+    color: #FFF;
+}
+.pictures__container {
+    max-width: 1250px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 50px 5px;
+   
+}
+.pictures__column-text {
+    background: url(../img/consulting/euphorialeft.png) 50% 50% / cover no-repeat;  
+    max-width: 614px;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block; 
+    height: 640px;
+}
+.pictures__title {
+    
+    font-family: "Core Sans C", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.5; 
+    letter-spacing: 0.208px;
+    max-width: 466px;
+    margin-bottom: 30px;
+}
+.pictures__block{
+    padding: 183px 74px 175px 74px;
+}
+.pictures__text {
+   
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.pictures__btn {
+    background: #fff;
+    color: #3c4242;
+    font-family: 'Causten', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 44px;
+    border-radius: 8px;
+    display: inline-flex;
+}
+.pictures__column-img{
+    background:url(../img/consulting/euphoriaright.png) no-repeat;  
+    min-width: 626px;
+   vertical-align: top;
+    display: inline-block;
+    min-height: 640px;
+}
+
+
+
