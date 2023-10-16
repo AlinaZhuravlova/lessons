@@ -1,0 +1,108 @@
+.game__container {
+    max-width: 670px;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+.game__title{
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.game__box {
+    max-width: 600px;
+    min-height: 800px;
+    border: 1px solid #111;   
+    background: #b5b3b34e;
+}
+
+.game__line-01 {
+    width: 50px;
+    height: 50px;
+    background: #0ca9f7;
+}
+.lines {
+    visibility:hidden;
+}
+.game__line-02 {
+    width: 50px;
+    height: 100px;
+    background: #0ca9f7;
+}
+.game__line-03 {
+    width: 400px;
+    height: 50px;
+    background: #0ca9f7;
+}
+.game__line-04 {
+    width: 50px;
+    height: 300px;
+    background: #0ca9f7;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+.game__line-05 {
+    width: 300px;
+    height: 50px;
+    background: #0ca9f7;
+    margin-left: 150px;
+}
+.game__line-06 {
+    width: 50px;
+    height: 200px;
+    background: #0ca9f7;
+    margin-left: 150px;
+}
+.game__line-07 {
+    width: 100px;
+    height: 50px;
+    background: #0ca9f7;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.game__line-08 {
+    width: 50px;
+    height: 50px;
+    background: #0ca9f7;
+    margin-left: 250px;
+}
+.game__line-09 {
+    max-width: 200px;
+    padding: 20px;
+    border: 1px solid #0ca9f7 ;
+    margin-left: 150px;
+   color: rgb(7, 7, 7);
+   font-size: 40px;
+   letter-spacing:10px;
+}
+.game__line-01:hover + .game__line-02,
+.game__line-02:hover  {
+    visibility: visible;
+}
+.game__line-02:hover +  .game__line-03,
+.game__line-03:hover  {
+    visibility: visible;
+}
+.game__line-03:hover +  .game__line-04,
+.game__line-04:hover  {
+    visibility: visible;
+}
+.game__line-04:hover +  .game__line-05,
+.game__line-05:hover  {
+    visibility: visible;
+}
+.game__line-05:hover +  .game__line-06,
+.game__line-06:hover  {
+    visibility: visible;
+}
+.game__line-06:hover +  .game__line-07,
+.game__line-07:hover  {
+    visibility: visible;
+}
+.game__line-07:hover +  .game__line-08,
+.game__line-08:hover  {
+    visibility: visible;
+}
+.game__line-08:hover +  .game__line-09,
+.game__line-09:hover  {
+    visibility: visible;
+}
