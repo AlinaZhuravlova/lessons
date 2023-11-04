@@ -1,0 +1,281 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+[class*="__container"]{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    
+}
+.wrapper{
+    min-height: 100%;
+	overflow: clip;
+}
+.header {
+    background: #989898;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.menu__item{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu__link {
+    
+    background: #c8c4c4;
+    padding: 15px 31px;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.menu__item:not(:last-child){
+    margin-right: 30px;
+}
+.menu__item :hover{
+    background: #8c7474; 
+    color: black; 
+}
+
+.main {
+    padding-top: 120px;
+}
+.main__container {
+    font-size: 0;
+   
+}
+.side {
+    display: inline-block;
+font-size: 18px;
+background: #aba3a3;
+padding: 15px;
+width: 300px;
+border: 1px solid #111;
+vertical-align: top;
+position: sticky;
+top: 0;
+left: 0;
+}
+.content {
+    display: inline-block;
+    font-size: 18px;
+    background: #f1b4b4;
+padding: 15px;
+width: 500px;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    visibility: hidden;
+}
+.menu__item:hover .submenu{
+    visibility: visible;
+}
+.submenu__item {
+    position: relative;
+    border: 1px solid #111;
+    background: #decccc;
+    padding: 15px;
+  
+}
+.submenu__item:hover{
+    border:1px solid #fffdfd ;
+    color: #fff;
+
+}
+.submenu__link {
+      
+}
+.submenu__link:hover{
+    color: #fff; 
+}
+
+.submenu__level {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    visibility: hidden;
+}
+.submenu__item:hover .submenu__level{
+    visibility: visible;
+}
+
+
+.level-submenu {
+}
+.level-submenu__item {
+    padding-left: 3px;
+    
+}
+.level-submenu__link {
+    background: #c99898;
+    width: 200px;
+    padding: 15px 30px;
+    border: 1px solid #111;
+}
+.level-submenu__link:hover{
+    background: #c87b7b;
+    border:1px solid #fffdfd ;
+    color: #fff;
+   
+}
+.side {
+    position: sticky;
+    top: 120px;
+}
+.side__menu {
+}
+.side__item {
+    margin-bottom: 5px;
+    position: relative;
+}
+.side__link {
+    padding: 15px;
+    background: #ae7878;
+    width: 100%;
+    text-align: center;
+}
+.side__link:hover{
+    background: #954646; 
+    border:1px solid #fffdfd ;
+    color: #fff;
+    
+   
+}
+.side__link::before{
+    content: "";
+    width: 15px;
+    height: 3px;
+    background: #111;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.side__link::after{
+    content: "";
+    width: 15px;
+    height: 3px;
+    background: #111;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.side__submenu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    padding-left: 2px;
+    width: 100%;
+    visibility: hidden;
+}
+.side__items:hover {
+    border:1px solid #fffdfd ;
+    color: #fff;
+    background: #954646;
+    
+}
+.side__item:hover .side__submenu {
+    visibility: visible;
+}
+.side__sublink {
+    background: #e57e7e;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    width: 100%;
+    
+}
+.side__sublink:hover{
+    text-decoration: underline;
+}
+/*---------------Homework-------------------*/
+.block {
+}
+.block__image{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+   
+}
+.block__image img{
+    width: 100%;
+    height: 100%;   
+}
+.block__image:hover .bg-block__background{
+visibility: visible;
+}
+.bg-block__background{
+    width: 100%;
+    height: 100%;
+    background: #6B77E5;
+    opacity: 0.7;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.block__item{
+    display: inline-block;
+    position: relative;
+    max-width: 386px;
+    width: 100%;
+}
+
+.block__item:not(:last-child){
+    margin-right: 31px;   
+}
+.block__row:not(:last-child){
+    margin-bottom: 31px;
+}
+.block__body{
+    font-size: 0;  
+}
+.block__link{
+    height: 532px;
+    width: 100%;
+}
+
+.block__content {
+    position: absolute;
+    width: 341px;
+    padding: 24px 45px;
+    background: #FFF;
+    top: 393px;
+    left: 22px;
+    height: 114px;
+  
+}
+.block__title {
+    color: #37393F;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.block__label {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.36;
+}
+.bg-block__socials{
+    position: absolute;
+    top: 45%;
+    left: 30%; 
+}
+.bg-block__link{
+    margin-right: 13px;
+}
