@@ -1,0 +1,477 @@
+@import url("fonts.css");
+@import url("reset.css");
+/*------------------------------------------------------------*/
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.header,.footer {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    background: #8f8585;
+   
+}
+.jewellery {
+    font-family: "Inter",sans-serif;
+    background: #FEFAF4 url("../img/jewellery/decor.png") right bottom no-repeat;
+}
+@media (max-width: 1640px) {
+	.jewellery {
+		background: none;
+	}
+}
+[class*="__container"]{
+    max-width: 1330px;
+    padding: 0px 15px;
+    margin: 0 auto;
+   
+    
+}
+.jewellery__container{
+    padding: 120px 0px;
+}
+
+.jewellery__top:not(:last-child) {
+    margin-bottom: 5px;
+    text-transform:capitalize;
+}
+.jewellery__top-title {
+font-family: "DM Serif Text",sans-serif;
+font-size: 58px;
+
+
+}
+.jewellery__top-title:not(:last-child){
+    margin-bottom: 27px;
+}
+.jewellery__subtitle {
+    color: #606060;
+    font-size: 20px;
+    line-height: 1.8;
+    
+}
+.jewellery__column {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+  
+	
+}
+.jewellery__item {
+    padding: 0 15px;
+    min-height: 100%;
+    display: flex;
+	flex-direction: column;
+    flex: 0 1 33.333%;
+  
+}
+@media (max-width: 1380px) {
+	.jewellery__item {
+		flex: 0 1 50%;
+	}
+    .jewellery__item:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .jewellery__text{
+        font-size: 22px;
+    }
+    .jewellery__top-title{
+        font-size: 50px;  
+    }
+    .jewellery__top-title:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .jewellery__top{
+        text-align: center;
+    }
+    .jewellery__container{
+        padding: 10px;
+    }
+    .jewellery__link{
+        font-size: 20px;
+    }
+    .jewellery__top-content h3{
+      font-size: 30px;
+    }
+   
+}
+@media(max-width: 1060px){
+    .jewellery__item {
+		flex: 0 1 100%; 
+	}
+    .jewellery__text{
+        font-size: 26px;
+    }
+    .jewellery__top-title{
+        font-size: 40px;   
+    }
+    .jewellery__title{
+        text-align: center;
+    }
+    .jewellery__link{
+        font-size: 24px;
+    }
+    .jewellery__arow{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.jewellery__image-link{
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 16px;
+    
+}
+.jewellery__image-link:hover{
+    transform: scale(1.05);
+}
+.jewellery__image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 452 / 323;
+    object-fit: cover;
+    
+}
+.jewellery__content {
+   
+    display: flex;
+    flex-direction: column;
+}
+.jewellery__top-content {
+    display: flex;
+    flex-direction: column;
+flex-grow: 1;
+}
+.jewellery__title {
+    font-family: "DM Serif Text",sans-serif;
+    font-size: 24px;
+    line-height: 1.2; 
+    margin-bottom: 16px;
+}
+.jewellery__text {
+    line-height: 1.6;
+    margin-bottom: 8px;
+    flex-grow: 1;
+}
+.jewellery__down-content {
+    display: flex;
+    justify-content: space-between;
+}
+.jewellery__link {
+    color: #F55529;
+    font-weight: 800;
+    line-height: 1.5;
+    transition:  all ease 0.2s;
+}
+.jewellery__link:hover{
+    text-decoration: underline;
+}
+.jewellery__arow {
+}
+.jewellery__arow-img {
+    width: 24px;
+    height: 24px;
+    transition: transform ease-in-out 0.2s;
+}
+.jewellery__arow-img:hover{
+    transform: scale(1.1);
+}
+/*----------------------EARINGS-----------------------------------------*/
+.earings {
+}
+.earings__container {
+    max-width: 1173px;
+   
+    
+
+}
+.earings__body {
+    font-family: "Cormorant Infant",sans-serif;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+}
+.earings__top {
+    text-align: center;
+    text-transform:capitalize;
+}
+.earings__title {
+    color: #291403;
+    font-family: "DM Serif Text",sans-serif;
+    font-size: 58px;
+    line-height: 1;
+   
+}
+.earings__title:not(:last-child){
+    margin-bottom: 27px;
+}
+.earings__subtitle {
+    color: #818181;
+    font-size: 30px;
+    font-weight: 700;
+}
+.earings__name-link:hover{ text-decoration: underline;
+
+}
+
+.earings__content {
+    display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+    margin-bottom: 88px;
+}
+.earings__name,.earings__price {
+    font-size: 24px;
+font-weight: 700;
+}
+.earings__items {
+    flex: 0 1 25%;
+    padding: 0px 15px;
+}
+
+
+.earings__item {
+}
+.earings__image {
+    width: 100%;
+}
+.earings__link{
+    aspect-ratio: 271 / 270;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.earings__link:hover{
+    transform: scale(1.05);
+}
+
+.earings__name:not(:last-child){
+    margin-bottom: 4px;
+}
+.earings__price {
+}
+.earings__btn {
+   
+    display: flex;
+   justify-content: center;
+}
+.earings__button:hover{
+    background: #fb632b;
+}
+.earings__button{
+    background: #FF7A49;
+    color: #fff;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 1.8;
+    padding: 12px 43px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+@media(max-width:1145px){
+    .earings__items {
+        flex: 0 1 50%;
+        padding: 0px 5px;
+        text-align: center;
+       
+    }  
+    .earings__title{
+        font-size: 42px;
+    }
+   
+    .earings__name,.earings__price {
+        font-size: 36px;
+   
+    }
+    .earings__button{
+        font-size: 20px;
+    }
+    .earings__button{
+        font-size: 26px;
+    }
+}
+@media (max-width: 800px) {
+	.earings__items {
+        flex: 0 1 100%;
+	}
+    .earings__subtitle{
+        font-size: 36px;
+    }
+    .earings__button{
+        font-size: 26px;
+    }
+}
+@media(max-width:692px){
+    .earings__items {
+        flex: 0 1 100%;
+        padding: 0px 5px;
+        text-align: center;
+    }  
+    .earings__title{
+        font-size: 40px;
+    }
+    .earings__name,.earings__price {
+        font-size: 36px;
+    }
+    .earings__button{
+        font-size: 26px;
+    }
+
+}
+/*---------------------PRODUCTS----------------------------------------------------*/
+.products {
+    background: #0E333D;
+}
+.products__container {
+  
+    padding: 94px 15px;
+}
+.products__body {
+
+    color: #FFF;
+    font-family: "Cormorant Infant", sans-serif;
+    line-height: 1.3;
+}
+.products__top {
+    text-align: center;
+    margin-bottom: 34px;
+}
+.products__title {
+    font-family: "DM Serif Text",sans-serif;
+    font-size: 48px;
+    margin-bottom: 23px;
+}
+.products__subtitle {
+    color: #EBEBEB;
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+    
+}
+.products__material {
+    display: flex;
+    gap: 41px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 77px;
+}
+.products__list {
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.products__label:hover{
+    text-decoration: underline;
+}
+.products__label {
+}
+.products__content {
+    display: flex;
+    margin: 0px -15px;
+    flex-wrap: wrap;
+   
+}
+
+.products__items { 
+    flex: 0 1 25%;
+    padding: 0 15px;
+    
+}
+.products__items a{
+    
+}
+.products__item {
+font-size: 24px;
+font-weight: 700;
+line-height: 1.4;
+}
+.products__item a{
+    width: 100%;
+    overflow: hidden;
+}
+    
+
+.products__image  {
+   
+    
+    
+}
+.products__link {
+    margin-bottom: 17px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 271 / 270;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+.products__link:hover{
+    transform: scale(1.05);
+    
+}
+.products__name-link {
+    margin-bottom: 4px;
+}
+.products__name:hover {
+    text-decoration: underline;
+}
+.products__price {
+}
+.earings__btn {
+}
+.earings__button {
+}
+@media(max-width:916px){
+    .products__items { 
+        flex: 0 1 50%;
+        text-align: center;
+}
+.products__subtitle{
+    font-size: 24px;
+}
+.products__title{
+    margin-bottom: 15px;
+}
+.products__material li{
+    font-size: 24px;
+}
+.products__material{
+    margin-bottom: 15px;
+}
+.products__top{
+    margin-bottom: 15px;
+}
+.products__container{
+    padding-top: 10px;
+}
+.products__name,.products__price {
+    font-size: 30px;
+}
+.products__items{
+    margin-bottom: 10px;
+}
+@media(max-width: 600px){
+    .products__items { 
+        flex: 0 1 100%;    
+}
+.products__name,.products__price {
+    font-size: 36px;
+}
+}
+}
+/*---------------------------------------------------------------------------------*/
+.footer {
+   
+}
